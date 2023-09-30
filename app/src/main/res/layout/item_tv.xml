@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10sp">
+    <TextView
+        android:id="@+id/txtmatv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txttentv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <ImageButton
+            android:id="@+id/btnxoatv"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="@color/white"
+            android:src="@drawable/xoa"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txtnamsinhtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textStyle="bold"
+
+        android:textSize="20sp" />
+</LinearLayout>

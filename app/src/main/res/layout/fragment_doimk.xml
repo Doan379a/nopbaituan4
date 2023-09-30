@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.doimk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="50sp"
+            android:text="Nhập mật khẩu cũ"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edipass2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/editdn"
+                android:hint="Nhập password"
+                android:inputType="textPassword"
+                android:padding="10sp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/mat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-40sp"
+                android:background="@color/white"
+                android:src="@drawable/matdong" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:text="Mật khẩu mới"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edipass3"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/editdn"
+                android:hint="Nhập password"
+                android:inputType="textPassword"
+                android:padding="10sp"
+                android:textColor="@color/black" />
+            <ImageView
+                android:id="@+id/mat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-40sp"
+                android:src="@drawable/matdong" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:text=" Nhập lại mật khẩu"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edipass4"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/editdn"
+                android:hint="Nhập password"
+                android:inputType="textPassword"
+                android:padding="10sp"
+                android:textColor="@color/black" />
+            <ImageView
+                android:id="@+id/mat4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-40sp"
+                android:background="@color/white"
+                android:src="@drawable/matdong" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btndn"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:background="@drawable/buttondn"
+                android:text="Lưu"
+                android:textColor="@color/black"
+                android:layout_marginRight="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnhuy"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:background="@drawable/buttondn"
+                android:text="Hủy"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
